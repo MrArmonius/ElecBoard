@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Elec Board BLE !</string>
+    <string name="bluetooth">Bluetooth </string>
+    <string name="show">Show Device</string>
+    <string name="connect">Connection</string>
+    <string name="deconnect">Deconnexion</string>
+
+</resources>
