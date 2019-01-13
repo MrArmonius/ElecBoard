@@ -10,6 +10,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+/**
+ * Bibliothèque pour observer les
+ * devices Bluetooth Low Energy sans filtres
+ */
+
 public class BLEWatcher extends BluetoothGattCallback {
 
 
