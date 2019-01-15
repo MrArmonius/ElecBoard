@@ -78,7 +78,7 @@ public class seekBar extends AppCompatActivity {
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                seekBar.setProgress(1000);
+                seekBar.setProgress(0);
             }
         });
 
