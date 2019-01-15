@@ -43,7 +43,7 @@
             android:layout_height="match_parent"
             android:rotation="270"
             android:id="@+id/vitesse"
-            android:max="100"
+            android:max="2000"
             android:visibility="invisible"
             />
     </LinearLayout>

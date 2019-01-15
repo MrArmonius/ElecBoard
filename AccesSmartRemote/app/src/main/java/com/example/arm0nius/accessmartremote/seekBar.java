@@ -63,8 +63,9 @@ public class seekBar extends AppCompatActivity {
         vitesse.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                System.out.println(progress);
-                String texte = Integer.toString(progress);
+                int entierEnvoyer = progress*progress/seekBar.getMax();
+                System.out.println(entierEnvoyer);
+                String texte = Integer.toString(entierEnvoyer);
                 characteristic.setValue(texte + "\n");
                 boolean succesStringWrite = mGatt.writeCharacteristic(characteristic);
                 System.out.println("String test " + succesStringWrite);
@@ -77,7 +78,7 @@ public class seekBar extends AppCompatActivity {
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                seekBar.setProgress(0);
+                seekBar.setProgress(1000);
             }
         });
 
