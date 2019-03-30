@@ -1,0 +1,20 @@
+batterie{
+width: 15.8cm (y)
+height: 4.2cm ()
+epaisseur: 4.5cm
+}
+
+ESC{
+width: 5.5cm
+height:3.5cm
+epaisseur: 4.7cm
+  fan{
+
+  }
+}
+
+board{
+width: 16cm
+height: 13.9cm
+height: 6cm
+}
